@@ -1,0 +1,141 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 1920px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(160, 168, 156);
+}
+.logo {
+    color: #0c0c0c;
+    display: flex;
+    align-items: center;
+    width: 185px;
+    text-decoration: none;
+    margin-left: 40px;
+    font-size: 34px;
+    font-weight: 500;
+    
+}
+.menu-list {
+    display: flex;
+
+}
+.menu-list-li {
+    display: flex;
+    margin-left: 20px;
+    list-style-type: none;
+    justify-content: space-between;
+    text-decoration: none;
+    
+}
+
+.menu-link {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0c0c0c;
+    border-bottom: #b90b0b solid 1px transparent;
+}
+.menu-link:hover {
+    color: #c95621;
+    border-bottom:#c95621 solid 1px;
+    box-sizing: border-box;
+}
+.menu-link:active {
+    color: #b90b0b;
+   
+}
+
+.btn-cart {
+    margin: 15px;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.products {
+    width: 100%;
+    height: auto;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+.product-item {
+    width: 20%;
+    text-align: center;
+    border:black solid 2px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
+.foto {
+    display: block;  
+}
+.product-h3 {
+    font-size: 30px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+}
+.product-h3 :hover {
+    color: #c95621;
+    border-bottom:#c95621 solid 2px;
+    box-sizing: border-box;
+}
+.product-p {
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+}
+
+.buy-btn {
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;    
+}
+
+.buy-btn :hover{
+    cursor: pointer;
+    user-select: none;
+    outline: none;
+    background: #c95621;
+}
